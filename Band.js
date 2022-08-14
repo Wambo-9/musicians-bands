@@ -1,7 +1,6 @@
 const {db} = require('./db');
 const {DataTypes} = require('sequelize'); 
 
-// TODO - define the Band model
 const Band = db.define('band', {
     name: {
         type: DataTypes.STRING
